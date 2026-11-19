@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn==1.6.1
+torch==2.11.0
+rtdl-revisiting-models==0.0.2
+rtdl-num-embeddings
+cloudpickle>=3,<4

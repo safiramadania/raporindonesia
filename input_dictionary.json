@@ -1,0 +1,1021 @@
+[
+  {
+    "code": "jenis_sek",
+    "label": "Jenis satuan pendidikan",
+    "group": "Profil sekolah",
+    "source": "Metadata/administrasi",
+    "choices": [
+      {
+        "label": "SMA",
+        "value": "SMA"
+      },
+      {
+        "label": "SMK",
+        "value": "SMK"
+      },
+      {
+        "label": "MA",
+        "value": "MA"
+      },
+      {
+        "label": "Paket C",
+        "value": "Paket C"
+      },
+      {
+        "label": "PPS Ulya",
+        "value": "PPS Ulya"
+      },
+      {
+        "label": "SMAgK",
+        "value": "SMAgK"
+      },
+      {
+        "label": "SMAK",
+        "value": "SMAK"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "sts_sek",
+    "label": "Status sekolah (negeri atau swasta)",
+    "group": "Profil sekolah",
+    "source": "Metadata/administrasi",
+    "choices": [
+      {
+        "label": "Negeri",
+        "value": "N"
+      },
+      {
+        "label": "Swasta",
+        "value": "S"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "daerah_khusus",
+    "label": "Status daerah khusus",
+    "group": "Profil sekolah",
+    "source": "Metadata/administrasi",
+    "choices": [
+      {
+        "label": "Ya",
+        "value": "Ya"
+      },
+      {
+        "label": "Tidak",
+        "value": "Tidak"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "kd_kokab",
+    "label": "Kabupaten/kota (kode wilayah pada data sekolah)",
+    "group": "Profil sekolah",
+    "source": "Kode dari profil/data sekolah resmi; tidak perlu ditebak.",
+    "choices": [],
+    "kind": "code"
+  },
+  {
+    "code": "wilayah_bagian",
+    "label": "Wilayah zona waktu",
+    "group": "Profil sekolah",
+    "source": "Metadata/administrasi",
+    "choices": [
+      {
+        "label": "Indonesia Barat",
+        "value": "Indonesia Barat"
+      },
+      {
+        "label": "Indonesia Tengah",
+        "value": "Indonesia Tengah"
+      },
+      {
+        "label": "Indonesia Timur",
+        "value": "Indonesia Timur"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "jenis_wilayah",
+    "label": "Bentuk wilayah (kabupaten atau kota)",
+    "group": "Profil sekolah",
+    "source": "Metadata/administrasi",
+    "choices": [
+      {
+        "label": "Kabupaten",
+        "value": "KABUPATEN"
+      },
+      {
+        "label": "Kota",
+        "value": "KOTA"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "status_wilayah",
+    "label": "Kondisi wilayah (perkotaan atau perdesaan)",
+    "group": "Profil sekolah",
+    "source": "Metadata/administrasi",
+    "choices": [
+      {
+        "label": "Perdesaan",
+        "value": "RURAL"
+      },
+      {
+        "label": "Perkotaan",
+        "value": "URBAN"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg1",
+    "label": "Apakah kamu perempuan atau laki-laki?",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Perempuan",
+        "value": "P"
+      },
+      {
+        "label": "Laki-laki",
+        "value": "L"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg2",
+    "label": "Ada berapa keluarga yang tinggal bersama di rumahmu?",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Hanya keluarga intiku sendiri (orang tua dan saudara kandungku saja)",
+        "value": "A1"
+      },
+      {
+        "label": "Keluargaku bersama satu keluarga lain",
+        "value": "B1"
+      },
+      {
+        "label": "Keluargaku bersama dua keluarga lain",
+        "value": "C1"
+      },
+      {
+        "label": "Keluargaku bersama tiga atau lebih keluarga lain",
+        "value": "D1"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg3",
+    "label": "Apa jenjang sekolah tertinggi yang diselesaikan ayahmu?",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "SD",
+        "value": "A1"
+      },
+      {
+        "label": "SMP",
+        "value": "B1"
+      },
+      {
+        "label": "SMA/SMK",
+        "value": "C1"
+      },
+      {
+        "label": "Diploma (D1, D2, atau D3)",
+        "value": "D1"
+      },
+      {
+        "label": "Sarjana (S1)",
+        "value": "E1"
+      },
+      {
+        "label": "Master (S2)",
+        "value": "F1"
+      },
+      {
+        "label": "Doktor (S3)",
+        "value": "G1"
+      },
+      {
+        "label": "Tidak Tahu",
+        "value": "H1"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg4",
+    "label": "Apa jenjang sekolah tertinggi yang diselesaikan ibumu?",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "SD",
+        "value": "A1"
+      },
+      {
+        "label": "SMP",
+        "value": "B1"
+      },
+      {
+        "label": "SMA/SMK",
+        "value": "C1"
+      },
+      {
+        "label": "Diploma (D1, D2, atau D3)",
+        "value": "D1"
+      },
+      {
+        "label": "Sarjana (S1)",
+        "value": "E1"
+      },
+      {
+        "label": "Master (S2)",
+        "value": "F1"
+      },
+      {
+        "label": "Doktor (S3)",
+        "value": "G1"
+      },
+      {
+        "label": "Tidak Tahu",
+        "value": "H1"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg5",
+    "label": "Apa pekerjaan ayahmu?",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak bekerja (termasuk jika sudah meninggal), mengurus rumah tangga (termasuk ibu rumah tangga), atau kerja serabutan (tidak jelas)",
+        "value": "A1"
+      },
+      {
+        "label": "Pensiunan dari karyawan pemerintah, perusahaan swasta, militer, atau polisi",
+        "value": "B1"
+      },
+      {
+        "label": "Anggota militer (TNI/tentara) atau polisi (Polri)",
+        "value": "C1"
+      },
+      {
+        "label": "Perwira militer (TNI/tentara) atau polisi (Polri)",
+        "value": "D1"
+      },
+      {
+        "label": "Buruh pabrik/tani/tambang, asisten/pembantu rumah tangga, pengemudi/sopir (termasuk taksi online), petugas keamanan, petugas kebersihan, dan karyawan usaha kecil (pelayan toko, mini market, dll)",
+        "value": "E1"
+      },
+      {
+        "label": "Bekerja mandiri dengan keterampilan khusus (seperti montir bengkel, penjahit, tukang kayu, bertani di ladang sendiri, nelayan dengan kapal sendiri, dll.)",
+        "value": "F1"
+      },
+      {
+        "label": "Tenaga pemasaran (seperti sales, marketing)",
+        "value": "G1"
+      },
+      {
+        "label": "Pekerja administratif (seperti sekretaris, tata usaha, receptionist, front office, costumer service) di kantor pemerintah (termasuk PNS), di perusahaan BUMN, dan di perusahaan swasta.",
+        "value": "H1"
+      },
+      {
+        "label": "Manajer atau pemimpin/kepala/pejabat di kantor pemerintah, perusahaan BUMN, atau perusahaan swasta.",
+        "value": "I1"
+      },
+      {
+        "label": "Profesional (seperti dosen, guru, dokter, bidan, pengacara, jaksa, insinyur/engineer, musisi, nakoda kapal, pilot, dll.)",
+        "value": "J1"
+      },
+      {
+        "label": "Anggota legislatif (DPR atau DPRD) atau pemimpin pemerintah (seperti gubernur, walikota, bupati)",
+        "value": "K1"
+      },
+      {
+        "label": "Pemilik usaha kecil (seperti pemilik toko kecil, bengkel, warung, pemilik rental mobil, dll.)",
+        "value": "L1"
+      },
+      {
+        "label": "Pemilik perusahaan besar (seperti pabrik besar, restoran besar, toko dengan banyak cabang, dll.",
+        "value": "M1"
+      },
+      {
+        "label": "Tidak tahu.",
+        "value": "N1"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg6",
+    "label": "Apa pekerjaan ibumu?",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak bekerja (termasuk jika sudah meninggal), mengurus rumah tangga (termasuk ibu rumah tangga), atau kerja serabutan (tidak jelas)",
+        "value": "A1"
+      },
+      {
+        "label": "Pensiunan dari karyawan pemerintah, perusahaan swasta, militer, atau polisi",
+        "value": "B1"
+      },
+      {
+        "label": "Anggota militer (TNI/tentara) atau polisi (Polri)",
+        "value": "C1"
+      },
+      {
+        "label": "Perwira militer (TNI/tentara) atau polisi (Polri)",
+        "value": "D1"
+      },
+      {
+        "label": "Buruh pabrik/tani/tambang, asisten/pembantu rumah tangga, pengemudi/sopir (termasuk taksi online), petugas keamanan, petugas kebersihan, dan karyawan usaha kecil (pelayan toko, mini market, dll)",
+        "value": "E1"
+      },
+      {
+        "label": "Bekerja mandiri dengan keterampilan khusus (seperti montir bengkel, penjahit, tukang kayu, bertani di ladang sendiri, nelayan dengan kapal sendiri, dll.)",
+        "value": "F1"
+      },
+      {
+        "label": "Tenaga pemasaran (seperti sales, marketing)",
+        "value": "G1"
+      },
+      {
+        "label": "Pekerja administratif (seperti sekretaris, tata usaha, receptionist, front office, costumer service) di kantor pemerintah (termasuk PNS), di perusahaan BUMN, dan di perusahaan swasta.",
+        "value": "H1"
+      },
+      {
+        "label": "Manajer atau pemimpin/kepala/pejabat di kantor pemerintah, perusahaan BUMN, atau perusahaan swasta.",
+        "value": "I1"
+      },
+      {
+        "label": "Profesional (seperti dosen, guru, dokter, bidan, pengacara, jaksa, insinyur/engineer, musisi, nakoda kapal, pilot, dll.)",
+        "value": "J1"
+      },
+      {
+        "label": "Anggota legislatif (DPR atau DPRD) atau pemimpin pemerintah (seperti gubernur, walikota, bupati)",
+        "value": "K1"
+      },
+      {
+        "label": "Pemilik usaha kecil (seperti pemilik toko kecil, bengkel, warung, pemilik rental mobil, dll.)",
+        "value": "L1"
+      },
+      {
+        "label": "Pemilik perusahaan besar (seperti pabrik besar, restoran besar, toko dengan banyak cabang, dll.",
+        "value": "M1"
+      },
+      {
+        "label": "Tidak tahu.",
+        "value": "N1"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg7",
+    "label": "Kepemilikan Meja belajar di rumah",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A1"
+      },
+      {
+        "label": "Ada",
+        "value": "B1"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg8",
+    "label": "Kamar tidur untuk dirimu sendiri (tidak berbagi dengan saudara atau orang lain)",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A2"
+      },
+      {
+        "label": "Ada",
+        "value": "B2"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg9",
+    "label": "Tempat belajar yang tenang di rumah",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A3"
+      },
+      {
+        "label": "Ada",
+        "value": "B3"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg10",
+    "label": "Listrik dan lampu untuk belajar di rumah pada malam hari",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A4"
+      },
+      {
+        "label": "Ada",
+        "value": "B4"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg11",
+    "label": "Komputer, laptop, atau tablet yang bisa kamu pakai untuk keperluan belajar atau tugas sekolah",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A5"
+      },
+      {
+        "label": "Ada",
+        "value": "B5"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg12",
+    "label": "Kepemilikan perangkat lunak (software atau program komputer) pendidikan",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A6"
+      },
+      {
+        "label": "Ada",
+        "value": "B6"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg15",
+    "label": "Kepemilikan buku-buku fiksi/sastra seperti novel, kumpulan cerpen, atau kumpulan puisi",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A1"
+      },
+      {
+        "label": "Kira-kira 1-10 buku",
+        "value": "B1"
+      },
+      {
+        "label": "Kira-kira 11-25 buku",
+        "value": "C1"
+      },
+      {
+        "label": "Kira-kira 26-100 buku",
+        "value": "D1"
+      },
+      {
+        "label": "Kira-kira lebih dari 100 buku",
+        "value": "E1"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg16",
+    "label": "Kepemilikan buku-buku tentang sains atau teknologi",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A2"
+      },
+      {
+        "label": "Kira-kira 1-10 buku",
+        "value": "B2"
+      },
+      {
+        "label": "Kira-kira 11-25 buku",
+        "value": "C2"
+      },
+      {
+        "label": "Kira-kira 26-100 buku",
+        "value": "D2"
+      },
+      {
+        "label": "Kira-kira lebih dari 100 buku",
+        "value": "E2"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg17",
+    "label": "Kepemilikan buku-buku tentang seni, musik, atau desain",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A3"
+      },
+      {
+        "label": "Kira-kira 1-10 buku",
+        "value": "B3"
+      },
+      {
+        "label": "Kira-kira 11-25 buku",
+        "value": "C3"
+      },
+      {
+        "label": "Kira-kira 26-100 buku",
+        "value": "D3"
+      },
+      {
+        "label": "Kira-kira lebih dari 100 buku",
+        "value": "E3"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg18",
+    "label": "Kepemilikan buku-buku tentang bahasa, termasuk kamus",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A4"
+      },
+      {
+        "label": "Kira-kira 1-10 buku",
+        "value": "B4"
+      },
+      {
+        "label": "Kira-kira 11-25 buku",
+        "value": "C4"
+      },
+      {
+        "label": "Kira-kira 26-100 buku",
+        "value": "D4"
+      },
+      {
+        "label": "Kira-kira lebih dari 100 buku",
+        "value": "E4"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "bg19",
+    "label": "Kepemilikan buku-buku yang bisa membantumu mengerjakan tugas-tugas sekolah",
+    "group": "Latar belakang peserta",
+    "source": "Kuesioner latar belakang AN",
+    "choices": [
+      {
+        "label": "Tidak ada",
+        "value": "A5"
+      },
+      {
+        "label": "Kira-kira 1-10 buku",
+        "value": "B5"
+      },
+      {
+        "label": "Kira-kira 11-25 buku",
+        "value": "C5"
+      },
+      {
+        "label": "Kira-kira 26-100 buku",
+        "value": "D5"
+      },
+      {
+        "label": "Kira-kira lebih dari 100 buku",
+        "value": "E5"
+      }
+    ],
+    "kind": "categorical"
+  },
+  {
+    "code": "ACH",
+    "label": "Ekspektasi akademik menurut siswa (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AIN",
+    "label": "Instruksi yang adaptif menurut siswa (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AKC",
+    "label": "Panduan guru menurut siswa (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "BUL",
+    "label": "Pengalaman perundungan siswa (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "CAF",
+    "label": "Umpan balik konstruktif menurut siswa (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "ECP",
+    "label": "Pengalaman hukuman fisik siswa (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "ESA",
+    "label": "Pengalaman siswa terkait narkoba di sekolah (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "ESV",
+    "label": "Pengalaman/pengetahuan kekerasan seksual siswa (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "ISB",
+    "label": "Sikap non dikskriminasi dalam pembelajaran menurut siswa (nilai indikator 0–100)",
+    "group": "Kebinekaan dan kesetaraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "KKG",
+    "label": "Konsepsi terhadap kesetaraan gender menurut siswa (nilai indikator 0–100)",
+    "group": "Kebinekaan dan kesetaraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "OCC",
+    "label": "Suasana kelas yang mendukung pembelajaran menurut siswa (berubah nama) (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "PBR",
+    "label": "Penerapan penghargaan dan sanksi secara proporsional menurut siswa (beubah nama) (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "PBU",
+    "label": "Program dan kebijakan sekolah tentang perundungan (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "PCP",
+    "label": "Program dan kebijakan sekolah tentang hukuman fisik (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "PKG",
+    "label": "Perilaku siswa terhadap kesetaraan gender (nilai indikator 0–100)",
+    "group": "Kebinekaan dan kesetaraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "PLIT",
+    "label": "Pembelajaran literasi (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "PNUM",
+    "label": "Pembelajaran numerasi (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "PSA",
+    "label": "Program dan kebijakan sekolah tentang penyalahgunaan rokok, minuman keras, dan narkoba (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "PSV",
+    "label": "Program dan kebijakan sekolah tentang kekerasan seksual (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "SAF",
+    "label": "Perasaan aman di sekolah (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "SKG",
+    "label": "Sikap Siswa terhadap kesetaraan gender (nilai indikator 0–100)",
+    "group": "Kebinekaan dan kesetaraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "TAS",
+    "label": "Perhatian dan kepedulian guru menurut siswa (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "TSC",
+    "label": "Aktivitas interaktif menurut siswa (nilai indikator 0–100)",
+    "group": "Pembelajaran (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "WEL",
+    "label": "Perasaan nyaman di sekolah (nilai indikator 0–100)",
+    "group": "Keamanan dan kesejahteraan (hasil survei)",
+    "source": "Sulingjar (pemetaan konsep; rincian responden perlu konfirmasi); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AAKN",
+    "label": "Perasaan terkoneksi dan menjadi bagian dari alam (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AAMN",
+    "label": "Minat terhadap pelestarian alam (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AAPR",
+    "label": "Partisipasi dalam aktivitas pelestarian alam (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "ABKR",
+    "label": "Kontribusi pada penyelesaian isu-isu komunitas sekolah (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "ABMK",
+    "label": "Minat dan kepedulian pada komunitas sekolah (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AMKA",
+    "label": "Sikap terhadap kesetaraan agama (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AMKB",
+    "label": "Sikap terhadap kesetaraan budaya (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AMKG",
+    "label": "Sikap terhadap kesetaraan gender (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AMTA",
+    "label": "Toleransi agama (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "AMTB",
+    "label": "Toleransi budaya (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "GRKP",
+    "label": "Kepedulian pada isu-isu sosial dan lingkungan (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "GRPB",
+    "label": "Perilaku berbagi dalam memanfaatkan fasilitas bersama (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "GRPR",
+    "label": "Partisipasi dalam aktivitas sosial (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "KGKI",
+    "label": "Kepedulian pada isu-isu global (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "KGMB",
+    "label": "Minat terhadap budaya dari berbagai negara (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "KMPE",
+    "label": "Pengelolaan emosi dan pengendalian diri (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "KMPR",
+    "label": "Melakukan perencanaan secara reflektif (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "KRBB",
+    "label": "Senang berpikir berbeda (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "KRMI",
+    "label": "Menerapkan ide baru dalam memecahkan masalah (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "KRMK",
+    "label": "Membuat karya-karya baru (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "NKAE",
+    "label": "Analisis dan evaluasi informasi (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "NKPI",
+    "label": "Penelusuran informasi (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "NKRE",
+    "label": "Refleksi etis dalam pengambilan keputusan (nilai indikator 0–100)",
+    "group": "Karakter peserta (hasil survei)",
+    "source": "Survei Karakter (pemetaan konsep); masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  },
+  {
+    "code": "IASP",
+    "label": "Indeks akses satuan pendidikan",
+    "group": "Akses sekolah",
+    "source": "Belum dapat dipastikan dari metadata yang ada; masukkan hanya jika nilai tersebut memang tersedia dari sumber, jangan memperkirakan sendiri.",
+    "choices": [],
+    "kind": "score"
+  }
+]
