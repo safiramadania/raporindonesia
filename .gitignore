@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 rapor_local.sqlite3
 .venv/
+.firebase/
 .env
 .env.*
 !.env.example

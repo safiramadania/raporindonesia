@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "hosting",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "run": {
+          "serviceId": "ruang-sekolah",
+          "region": "asia-southeast1"
+        }
+      }
+    ]
+  }
+}
