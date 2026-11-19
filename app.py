@@ -4,6 +4,7 @@ import csv
 import hmac
 import io
 import json
+import logging
 import os
 import sqlite3
 import sys
@@ -25,6 +26,7 @@ MAX_UPLOAD_BYTES = 16 * 1024 * 1024
 MAX_ROWS = 20_000
 
 app = Flask(__name__)
+logging.basicConfig(level=logging.INFO)
 app.config["MAX_CONTENT_LENGTH"] = MAX_UPLOAD_BYTES
 APP_ENV = os.getenv("APP_ENV", "local").casefold()
 APP_ACCESS_PASSWORD = os.getenv("APP_ACCESS_PASSWORD", "")
@@ -55,8 +57,9 @@ TARGETS = manifest["targets"]
 FIELD_SPECS = json.loads((ROOT / "input_dictionary.json").read_text(encoding="utf-8"))
 CODE_TO_LABEL = {item["code"]: item["label"] for item in FIELD_SPECS}
 LABEL_TO_CODE = {item["label"].strip().casefold(): item["code"] for item in FIELD_SPECS}
-UI_FIELD_SPECS = [item for item in FIELD_SPECS if item["code"] != "kd_kokab"]
-UI_FEATURES = [c for c in FEATURES if c != "kd_kokab"]
+HIDDEN_FEATURES = {"kd_kokab", "IASP"}
+UI_FIELD_SPECS = [item for item in FIELD_SPECS if item["code"] not in HIDDEN_FEATURES]
+UI_FEATURES = [c for c in FEATURES if c not in HIDDEN_FEATURES]
 PREPROCESSOR = next(v.cell_contents for v in predict.__closure__
                     if hasattr(v.cell_contents, "num_cols_") and hasattr(v.cell_contents, "cat_cols_"))
 NUM_FEATURES = set(PREPROCESSOR.num_cols_)
@@ -327,6 +330,7 @@ def api_predict():
         frame, filename = read_upload(request.files["file"])
         return jsonify(prediction_payload(frame, filename))
     except Exception as exc:
+        app.logger.exception("Prediction request failed (file upload)")
         return jsonify({"error": str(exc)}), 400
 
 
@@ -350,6 +354,7 @@ def api_predict_form():
         frame, _ = read_upload(FormUpload())
         return jsonify(prediction_payload(frame, "Input formulir"))
     except Exception as exc:
+        app.logger.exception("Prediction request failed (form input)")
         return jsonify({"error": str(exc)}), 400
 
 

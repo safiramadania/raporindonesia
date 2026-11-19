@@ -2,7 +2,7 @@ Flask==3.1.2
 pandas==2.3.3
 numpy==2.2.6
 scikit-learn==1.6.1
-torch==2.10.0
+torch==2.11.0
 cloudpickle==3.1.2
 rtdl-revisiting-models==0.0.2
 rtdl-num-embeddings
